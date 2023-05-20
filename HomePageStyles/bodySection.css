@@ -1,0 +1,150 @@
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+.bodySection{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: vertical;
+
+}
+.bodyText{
+    display:grid;
+    grid-template-rows: .75fr .5fr 2fr 1.5fr;
+    margin:40px;
+    margin-right:0px;
+    border-width: 4px;
+    border-style:groove;
+    border-color: #005696;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.ourMission{
+    color:#005696;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top:20px;
+}
+.missionStatement{
+    color:#005696;
+    width:75%;
+    margin-inline-end: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top:0px;
+    font-size:20px;
+}
+.adress{
+    color: #005696;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.buttonsBlock{
+    padding-top:40px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    justify-content: space-evenly;
+    margin-bottom: 0;
+}
+.joinToday{
+    font-size:25px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #005696;
+    color:white;
+    margin-top:60px;
+    z-index: 2;
+    margin-left:20px;
+}
+.joinToday:hover{
+    box-shadow: 5px 5px 5px #005696;
+}
+.goals{
+    display:  grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color:#005696;
+    margin-bottom:20px;
+    margin:0;
+}
+.goalSection{
+    display:grid;
+    margin:0px;
+    grid-auto-rows: 1fr 3fr;
+
+}
+.goalHeading{
+    margin:0px;
+    height:50px;
+    padding-top:7px;
+    text-align: center;
+    font-style:italic;
+    font-size:25px;
+}
+.goalstext{
+    margin-top:-10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    padding:10px;
+    padding-top:0px;
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+.rightsection{
+    vertical-align: center;
+    display:grid;
+    grid-template-rows: 2fr 1fr 1fr;
+    justify-content: space-evenly;
+    margin-left:20px;
+    margin:40px;
+    position: relative;
+}
+.imageR{
+    margin-left:20px;
+    margin-right:20px;
+    width:90%;
+    height:50px;
+    object-fit: cover;
+    margin-top:40px;
+}
+
+.socialBox{
+    position: absolute;
+    bottom:50px;
+    right:0;
+    left:0;
+    display:block;
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;
+    border-width: 4px;
+    border-style:groove;
+    border-color: #005696;
+    color:#005696;
+    font-family: 'Quicksand', sans-serif;
+    border-radius:20px;
+}
+.insta{
+    margin-top:5px;
+    height:45px;
+}
+.eventButton{
+    font-size:25px;
+    margin-left:10%;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #005696;
+    color:white;
+    margin-top: 60px;
+    z-index:2;
+    margin-bottom:20px;
+}
+.eventButton:hover{
+    box-shadow: 5px 5px 5px #005696;
+}
+
+

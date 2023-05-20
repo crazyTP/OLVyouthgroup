@@ -1,0 +1,51 @@
+.toprow{
+    display:grid;
+    grid-template-columns: 1fr;
+    width:100%;
+    height:300px;
+    object-fit: cover;
+    background-color: #005696;
+    box-shadow: 15px 5px 10px rgba(200, 31, 31,.2);
+    align-items: center;
+}
+.logo{
+    grid-column: 1;
+    grid-row: 1;
+    height: 95px;
+    margin-top:2px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    object-fit: contain;
+    background-color:#3b87d293;
+    border-radius: 50%;
+    
+
+}
+.frontImage{
+    grid-column: 1;
+    grid-row: 1;
+    width:100%;
+    height:276px;
+    display:block;
+    object-fit: cover;
+}
+.header{
+    height: 100px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-shrink: inherit;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color: #005696;
+    font-family: 'Quicksand', sans-serif;;
+    z-index:1;
+    color:white;
+    padding-left:55px;
+    z-index:2;
+}
+
+

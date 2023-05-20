@@ -1,0 +1,42 @@
+.sideBar{
+    margin:0px;
+    align-items: center;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 2;
+
+}
+.sideBar .textDiv{
+    margin-top:-5px;
+    color:white;
+    background-color: #005696;
+    font-size:15px;
+    opacity: 1;
+    width:75px;
+    opacity: 0;
+    padding-top:20px;
+    padding-bottom:15px;
+    box-shadow: 15px 5px 10px rgba(86, 63, 63, 0.16);
+    text-decoration: none;
+}
+.sideBar:hover .textDiv{
+    opacity:1;
+}
+.sideText{
+    margin-bottom:20px;
+    color:white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.sideText:hover{
+    color:blue;
+}
+.menuicon{
+    background-color: #005696;
+    height:100px;
+    width:75px;
+    margin:0px;
+    box-shadow: 15px 5px 10px rgba(86, 63, 63, 0.16);
+
+}

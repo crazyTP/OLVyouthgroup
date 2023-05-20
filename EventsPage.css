@@ -1,0 +1,56 @@
+.nonEvents{
+    display:grid;
+    grid-template-rows: 1fr .5fr;
+    align-items: center;
+}
+.titleEvent{
+    display:inline-block;
+    color:white;
+    background-color: #005696;
+    padding:5px;
+    font-family: 'Quicksand', sans-serif;
+}
+.event{
+    display:grid;
+    margin-top:3px;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+.event:hover{
+    box-shadow: 15px 5px 10px rgba(86, 63, 63, 0.16);
+    z-index: 1;
+}
+.date{
+    padding-top:30px;
+    padding-left:20px;
+    font-size:30px;
+    font-style:bold;
+    font-weight:700;
+    font-style:italic;
+}
+.eventMain{
+    display: grid;
+    margin-left:10px;
+    grid-template-rows: 1fr 2fr;
+}
+.title{
+    padding-top:3px;
+    font-size:30px;
+}
+.signupButton{
+    padding-bottom:5px;
+    height:50px;
+    font-size:25px;
+    color:white;
+    font-weight: 100;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #005696; ;
+}
+.description{
+    width:500px;
+}
+.signup{
+    text-align:center;
+    padding-top:33px;
+}

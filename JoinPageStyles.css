@@ -1,0 +1,33 @@
+.title{
+    color:white;
+    background-color: #005696;
+    font-family: 'Quicksand', sans-serif;
+    weight:700;
+    font-size:40px;
+    margin-top:20px;
+    display:inline-block;
+    padding:10px;
+}
+.text{
+    margin:30px;
+    font-family: 'Quicksand', sans-serif;
+    font-size:30px;
+    width:750px;
+    color: #005696;
+    border-color:  #005696;
+    border-width: 3px;
+    padding:30px;
+    border-style: solid;
+}
+.join{
+    margin-top:20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    background-color:#005696 ;
+    color:white;
+    display: block;
+}
+.join:hover{
+    box-shadow: 5px 5px 5px #005696;
+    cursor: pointer;
+}
